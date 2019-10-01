@@ -66,9 +66,9 @@ form input {
     margin: 1em;
 }
 
-.searchBtn {
+/* .searchBtn {
     border-radius: 15%;
-}
+} */
 
 /* NAV BAR STYLING */
 nav {
@@ -103,6 +103,8 @@ button:active {
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
+
+    margin: 2em;
 
     background-color: rgba(240, 240, 240, 0.1)
 }
