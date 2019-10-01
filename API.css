@@ -1,0 +1,127 @@
+/* GLOBAL STYLING RULES */
+body {
+    margin: 0px;
+    padding: 0px;
+    
+    background-image: url('https://images.pexels.com/photos/1694000/pexels-photo-1694000.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HEADER STYLING */
+
+.logo {
+    height: 25vw;
+}
+
+/* PIC OF THE DAY STYLING */
+
+.apotdContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+}
+
+.apotd {
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+}
+
+/* SEARCH CONTAINER STYLING */
+
+.searchContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* SEARCH FORM STYLING */
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 5vw;
+}
+
+form label {
+    font-size: 20px;
+    margin: 1em;
+}
+
+form input {
+    margin: 1em;
+}
+
+.searchBtn {
+    border-radius: 15%;
+}
+
+/* NAV BAR STYLING */
+nav {
+    display: flex;
+    width: 100vw;
+    padding: 2em;
+}
+
+.nextBtn {
+    float: right;
+    margin-right: 10%;
+    border-radius: 15%;
+    height: 3em;
+    width: 10em;
+}
+
+button:active {
+    background-color: slategray;
+}
+
+.prevBtn {
+    float: left;
+    margin-left: 10%;
+    border-radius: 15%;
+    height: 3em;
+    width: 10em;
+}
+/* DISPLAY RESULTS STYLING */
+
+.resultsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    background-color: rgba(240, 240, 240, 0.1)
+}
+
+.imgResults {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    width: 100vw;
+    height: 40vw;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.resultImage{
+    margin: 5px;
+    border: 1px solid black;
+}
+

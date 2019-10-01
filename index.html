@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' type='text/css' href='API.css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <title>NASA API Project</title>
+</head>
+<body>
+    <div class='mainContainer' id='mainContainer'>
+
+        
+        <!-- Astronomy Picture of the Day-->
+        
+        <div class='apotdContainer' id='apotdContainer'>
+            <img src='https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png' class='logo' id='logo'>
+            <h1>Astronomy Picture of the day!</h1>
+            <img class='apotd' id="apotd">
+        </div>
+    
+        <!--Search Form-->
+
+        <div class='searchContainer' id='searchContainer'>
+
+            <div class='searhFormContainer' id='searhFormContainer'>
+                <form>
+                    <label>Explore the stars. Enter a search term here!</label>
+                    
+                    <input type='text' class='searchTerm' id='searchTerm' placeholder='e.g. Earth'>
+                    
+                    <button class='searchBtn' id='searchBtn' type='submit'>Submit</button>
+                </form>
+            </div>
+        
+        
+        
+        
+            <!-- Results Display-->
+            <nav>
+                <button class='prevBtn' id='prevBtn' type='button'>Previous</button>
+                <button class='nextBtn' id='nextBtn' type="button">Next</button>
+            </nav>
+        
+            <div class='resultsContainer' id='resultsContainer'>
+                <div class='imgResults' id='imgResults'></div>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src='API.js'></script>
+</body>
+</html>
